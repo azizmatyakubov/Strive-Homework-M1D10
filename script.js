@@ -60,12 +60,31 @@ const getMinAndMax = () => {
 let arr29_1 = [1, 2, 3, 4, 5, 6]
 let arr29_2 = [1, 2, 3, 4, 5, 6, 7, 8]
 
-const longestArray = (arr1, arr2) {
+const longestArray = (arr1, arr2) => {
     return arr1>arr2 ? arr1 : arr2
 }
 
 
 // 30) Create a function that gets 2 arrays of numbers as parameters and returns the one with the higher sum of values
+
+const highestSum = (arr1, arr2) => {
+    
+    let sumOfArr1 = 0
+    let sumOfArr2 = 0
+
+    for(let i = 0; i<arr1.length; i++) {
+        sumOfArr1 += arr1[i]
+    }
+
+    
+    for(let i = 0; i<arr2.length; i++) {
+        sumOfArr2 += arr2[i]
+    }
+    
+    return sumOfArr1 > sumOfArr2 ? arr1 : arr2 
+
+}
+
 
 // DOM EXERCISES
 
