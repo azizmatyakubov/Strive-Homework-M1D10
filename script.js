@@ -133,8 +133,24 @@ const printingTd = () => {
     }
 
 // 38) Console log "Page loaded" when the page is correctly loaded
+    window.onload = () => {
+        console.log('Page Loaded')
+    }
+
 // 39) Write a function to add new items to a unordered list
+    const addNewLi = () => {
+        let ul = document.getElementById('ul')
+        let li = document.createElement('li')
+        li.innerText = 'This is a new list element'
+        ul.appendChild(li)
+    }
+
 // 40) Write a function to empty a list
+    const emptyList = () => {
+        let ol = document.getElementById('ol')
+        ol.innerText = ''
+    }
+
 
 // EXTRA EXERCISES
 
