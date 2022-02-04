@@ -22,3 +22,8 @@ table {
     border: 1px solid black;
     border-radius: 8px;
 }
+
+.font-size {
+    font-size: 35px;
+    font-weight: 900;
+}
