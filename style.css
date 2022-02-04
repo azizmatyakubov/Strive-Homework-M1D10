@@ -37,5 +37,6 @@ td {
 }
 
 tr {
- outline: 2px dotted red
+    outline: 2px dotted red;
+    height: 20px;
 }
