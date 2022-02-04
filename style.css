@@ -35,3 +35,7 @@ table {
 td {
     border: 1px solid green;
 }
+
+tr {
+ outline: 2px dotted red
+}
