@@ -89,8 +89,23 @@ const highestSum = (arr1, arr2) => {
 // DOM EXERCISES
 
 // 31) Get the element with an id of "container" from the page
+
+document.getElementById('container')
+
+
 // 32) Get every <td> element from the page
+
+let tdArr = document.querySelectorAll('td')
+
 // 33) Use a loop for printing the text inside of every <td> element in the page
+
+const printingTd = () => {
+    for(td of tdArr) {
+        console.log(td.innerText)
+    }
+}
+
+
 // 34) Write a function to change the heading of the page
 // 35) Write a function to add an extra row to the table
 // 36) Write a function to add a class of "test" to each row in the table
