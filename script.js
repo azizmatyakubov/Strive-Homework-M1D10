@@ -6,9 +6,14 @@ const exercise21 =() =>{
     console.log(`${x} <> ${y}`)
 }
 
-const exercise22 =() =>{
-    student = {
-        name: 'John',
-        surname: 'Doe'
-    }
+
+ student = {
+     name: 'John',
+     surname: 'Doe',
+     email: 'JohnDoe@doe.com'
+ }
+    
+
+const exercise23 =() =>{
+    delete student.email
 }
