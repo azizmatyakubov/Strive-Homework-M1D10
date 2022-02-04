@@ -49,7 +49,22 @@ const getMinAndMax = () => {
 }
 
 // 28) Create an array of arrays, in which every array has 10 random numbers
+
+// let arr28 = []
+// const exercise28 = () => {
+    
+// }
+
 // 29) Create a function that gets 2 arrays as parameters and returns the longest one
+
+let arr29_1 = [1, 2, 3, 4, 5, 6]
+let arr29_2 = [1, 2, 3, 4, 5, 6, 7, 8]
+
+const longestArray = (arr1, arr2) {
+    return arr1>arr2 ? arr1 : arr2
+}
+
+
 // 30) Create a function that gets 2 arrays of numbers as parameters and returns the one with the higher sum of values
 
 // DOM EXERCISES
