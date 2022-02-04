@@ -117,7 +117,21 @@ const printingTd = () => {
     }
 
 // 36) Write a function to add a class of "test" to each row in the table
+    const addClass = () => {
+        let trArr = document.querySelectorAll('tr')
+        for(let tr of trArr) {
+            tr.classList.add('test')
+        }
+    }
+
 // 37) Write a function to add a red background to every link in the page
+    const addBackground = () => {
+        let aArr = document.querySelectorAll('a')
+        for(let a of aArr) {
+            a.style.backgroundColor = 'red'
+        }
+    }
+
 // 38) Console log "Page loaded" when the page is correctly loaded
 // 39) Write a function to add new items to a unordered list
 // 40) Write a function to empty a list

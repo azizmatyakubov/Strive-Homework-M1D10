@@ -40,3 +40,7 @@ tr {
     outline: 2px dotted red;
     height: 20px;
 }
+
+.test {
+    font-size: 22px;
+}
