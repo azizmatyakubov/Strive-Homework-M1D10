@@ -1,3 +1,27 @@
+
+
+/* 11 */
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* 12) Set every h1 to be centered */
+h1 {
+    text-align: center;
+}
+/* 13) Change the color of each link in the page */
+a {
+    color: black;
+}
+
+/* 14) Create a class with a border assigned to it
+   15) Set the previously created table to have rounded corners */
+table {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+/* 16) Add a margin between every paragraph */
 p {
     border: 3px solid black;
     padding: 4px 12px;
@@ -5,37 +29,23 @@ p {
     margin: 1px;
 }
 
-body {
-    max-width: 900px;
-    margin: auto;
-}
-
-h1 {
-    text-align: center;
-}
-
-a {
-    color: black;
-}
-
-table {
-    border: 1px solid black;
-    border-radius: 8px;
-}
-
+/* 17) Create a class which changes font size and text weight when applied */
 .font-size {
     font-size: 35px;
     font-weight: 900;
 }
 
+/* 18) Create a class to hide a piece of content */
 .hide-content { 
     visibility: hidden;
 }
 
+/* 19) Add a green border to each <td> */
 td {
     border: 1px solid green;
 }
 
+/* 20) Add a dotted red border to each <tr> (note: <tr> does not accept a border property) */
 tr {
     outline: 2px dotted red;
     height: 20px;

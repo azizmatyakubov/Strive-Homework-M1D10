@@ -6,16 +6,24 @@ const exercise21 =() =>{
     console.log(`${x} <> ${y}`)
 }
 
-
+// 22
  student = {
      name: 'John',
      surname: 'Doe',
      email: 'JohnDoe@doe.com'
  }
     
-
+// 23
 const exercise23 =() =>{
     delete student.email
+}
+
+// 24
+let stringArr = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+
+// 25
+for(let str of stringArr) {
+    console.log(str)
 }
 
 // 26) Create an array with 100 random numbers in it
@@ -155,6 +163,9 @@ const printingTd = () => {
 // EXTRA EXERCISES
 
 // 41) Add an eventListener to show an alert when the cursor hovers a link, displaying its href property
+
+
+
 // 42) Create a button that will hide every image on the page when clicked
 // 43) Create a button that will hide or show the table on the page when clicked
 // 44) Write a function for calculating the sum of every number inside all the table cells (if their content is numeric)
