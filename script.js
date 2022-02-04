@@ -6,3 +6,9 @@ const exercise21 =() =>{
     console.log(`${x} <> ${y}`)
 }
 
+const exercise22 =() =>{
+    student = {
+        name: 'John',
+        surname: 'Doe'
+    }
+}
