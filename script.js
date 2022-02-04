@@ -116,7 +116,6 @@ const printingTd = () => {
         table.append(tr)
     }
 
-
 // 36) Write a function to add a class of "test" to each row in the table
 // 37) Write a function to add a red background to every link in the page
 // 38) Console log "Page loaded" when the page is correctly loaded
