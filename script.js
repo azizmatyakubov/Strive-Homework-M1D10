@@ -159,13 +159,9 @@ const printingTd = () => {
         ol.innerText = ''
     }
 
-
 // EXTRA EXERCISES
 
 // 41) Add an eventListener to show an alert when the cursor hovers a link, displaying its href property
-
-
-
 // 42) Create a button that will hide every image on the page when clicked
 // 43) Create a button that will hide or show the table on the page when clicked
 // 44) Write a function for calculating the sum of every number inside all the table cells (if their content is numeric)
